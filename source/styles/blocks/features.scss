@@ -1,0 +1,46 @@
+.features {
+  background-color: #ffffff;
+  padding: 22px 20px 48px;
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    border-bottom: 1px solid #e6e6e6;
+    max-width: 768px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding-bottom: 9px;
+    padding-top: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    border-bottom: none;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+.features__header {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0 0 43px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 708px;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 21px;
+    margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: -4px 0 22px;
+    padding-left: 110px;
+  }
+}

@@ -1,0 +1,31 @@
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ebebeb;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    gap: 141px 60px;
+    border: none;
+    margin-bottom: 89px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0;
+    gap: 78px 80px;
+  }
+}
+
+.catalog-list__card {
+  background-color: #ffffff;
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
+}

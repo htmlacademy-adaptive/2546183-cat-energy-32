@@ -1,0 +1,57 @@
+.developer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+    justify-content: flex-start;
+    max-width: 168px;
+    gap: 23px;
+  }
+}
+
+.developer:hover {
+  .developer__logo path {
+    fill: #68b738;
+    cursor: pointer;
+  }
+}
+
+.developer:active {
+  .developer__text {
+    opacity: 30%;
+  }
+
+  .developer__logo path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
+
+.developer__link {
+  text-decoration: none;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 2px;
+  }
+}
+
+.developer__text {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  margin: 0;
+}
+
+.developer__logo {
+  display: block;
+}
+
+.developer__logo path {
+  fill: #666666;
+}

@@ -1,0 +1,33 @@
+.button {
+  background: transparent;
+}
+
+.button--primary {
+  display: block;
+  background-color: $basic-green;
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  width: 280px;
+  text-decoration: none;
+  text-align: center;
+
+  .card & {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .extra-goods__list .button--primary {
+    width: 632px;
+    padding: 10px 285px;
+    background-color: $basic-green;
+  }
+}

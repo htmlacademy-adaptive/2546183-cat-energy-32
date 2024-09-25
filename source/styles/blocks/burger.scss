@@ -1,0 +1,11 @@
+.burger {
+  border: none;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  height: 24px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

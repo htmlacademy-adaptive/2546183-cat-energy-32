@@ -19,7 +19,7 @@
   @media (min-width: $desktop-width) {
     gap: 77px;
     margin-left: 0;
-    margin-bottom: 76px;
+    margin-bottom: 43px;
     padding: 0 110px;
     width: 100%;
   }
@@ -40,7 +40,7 @@
     background-size: 80px 80px;
     background-position: 0 50px;
 
-    &:after {
+    &::after {
       content: counter(increment);
       font-weight: 400;
       font-family: $secondary-font;

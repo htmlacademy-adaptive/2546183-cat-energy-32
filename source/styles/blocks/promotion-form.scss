@@ -65,3 +65,13 @@
     padding: 15px 20px;
   }
 }
+
+.promotion-form .button--primary:hover {
+  cursor: pointer;
+  background-color: #5eaa2f;
+}
+
+.promotion-form .button--primary:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5eaa2f;
+}
